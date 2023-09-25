@@ -1,1 +1,2 @@
-# proiectOOP
+#Exercitiu
+
