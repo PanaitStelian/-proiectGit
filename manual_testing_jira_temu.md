@@ -1,16 +1,19 @@
-<h1>Testing Project for **Inserati aici numele aplicatiei pe care o testati**</h1>
+<h1>Testing Project for **Temu**</h1>
 
 The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application
 
-Application under test: **Inserati aici numele aplicatiei pe care o testati**
+**Application under test:** Temu
 
-Tools used: Jira, Zephyr Squad.
+**Tools used:** Jira, Zephyr Squad.
 
 <h2>Functional specifications:</h2>
 
-The below story **(daca aveti mai multe scrieti stories**) was created in Jira and describes the functional specifications of the "**nume_modul**" module, for which the final project is performed upon.
+The below story was created in Jira and describes the functional specifications of the "*Create Account**" module, on which the final project is performed upon.
 
-**inserati aici fie poza cu story-ul / story-urile daca aveti mai putine, dar daca aveti mai mult de doua recomand sa descarcati story-urile din jira si sa le incarcati ca fisier**
+![image](https://github.com/user-attachments/assets/2f4f905c-e886-4690-a986-12934e2a97fd)
+
+The full document with stories can be found here.
+
 
 Here you can find the release that was created for this project:
 
