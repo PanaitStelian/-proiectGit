@@ -12,12 +12,12 @@ The below story was created in Jira and describes the functional specifications 
 
 ![image](https://github.com/user-attachments/assets/2f4f905c-e886-4690-a986-12934e2a97fd)
 
-The full document with stories can be found here.
-
+The full document with stories can be found [here](https://github.com/PanaitStelian/manual_testing_jira/blob/master/Jira%20Stories.pdf).
 
 Here you can find the release that was created for this project:
 
-**(inserati aici o poza cu release-ul pe care l-ati creat in jira. Atentie, release-ul nu va contine si teste, ci doar epic-uri, story-uri, task-uri, subtaskuri si bug-uri)**
+![image](https://github.com/user-attachments/assets/2d4e5dec-253c-47f9-983f-7f550fbeac26)
+
 
 <h2>Testing process</h2>
 
