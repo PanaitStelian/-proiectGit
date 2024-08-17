@@ -40,12 +40,28 @@ The plan identifies the items to be tested, the features to be tested, the types
 </ul>
 
 <h4> 1.1.2 Entry criteria defined </h4>
-
-**(enumerati aici toate criteriile de intrare pe care le-ati definit pentru proiectul vostru)**
+a. All functional and non-functional requirements are clearly defined and approved by all parties involved.
+I chose the online sales platform <https://www.temu.com/ro> and more precisely the important functionalities that involve creating an account as a user.
+b.The chosen test environment is jira -Zephyr Squad and we used the online version of the application
+c. As a search engine, to navigate the web platform I used Google Chrome.
+d. The software version of the application used for testing is the public one available on the internet in the web version
+e. The deployed source code is stable, with no known critical bugs that could hinder testing.
+f. Ten test cases have been implemented, defined and approved.
+g. All test cases are written, reviewed and approved, ensuring that they cover all relevant scenarios.
+h.The available test data was as needed to execute the test cases and available in the test environment.
+* The specifications for the account creation functionality in the Temu platform are complete and approved.
+* The test environment is configured and includes relevant test data.
+* The web version of the platform containing the functionality is stable and delivered to the testing team.
+* Test cases for the account creation functionality have been written and reviewed.
+* The necessary testing tools are installed and functional.
 
 <h4> 1.1.3 Exit criteria defined </h4>
+a. All test cases for the create an account as a user functionality have been executed.
+b. The critical and major defects identified were corrected and validated.
+c. A test coverage report has been generated, indicating more than 95% coverage.
+d. Regression tests have been successfully performed.is. The documentation for the functionality of creating an account as a user, has been updated and revised.
+f. The test results have been approved by the customer and the management team.
 
-**(enumerati aici toate criteriile de iesire pe care le-ati definit pentru proiectul vostru)**
 
 <h4> 1.1.4 Test scope</h4>
 
