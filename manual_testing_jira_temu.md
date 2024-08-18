@@ -67,11 +67,18 @@ f. The test results have been approved by the customer and the management team.
 
 <h5> Tests in scope: </h5>
 
-**(descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+Ten tests have been implemented, which target the main functionalities related to: 
+-positive test such as logging into your account with valid data
+-negative testing such as logging into the account with invalid data
+-logging into an existing account when we have certain security breaches enabled, such as logging into the account when the 2FA option is enabled
+
+Functionalities aimed at the user's interaction with the platform for the purpose of placing orders, such as adding a payment method, but also adding the delivery address
+For the purpose of testing we used the web version of the temu platform available for windows
+I mention that the web version of the platform used is responsive in terms of: performance, design but also user interactions
 
 <h5>Tests not in scope: </h5>
 
-**(descrieti aici toate testele pe care NU intentionati sau nu puteti sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+The functionality of logging out of the account, has not been implemented because it is not subject to testing in this case.
 
 <h4>1.1.5 Risks detected</h4>
 
@@ -110,12 +117,14 @@ The following elements are needed to be ready before the test execution phase be
 
 <h3>1.6. Test Execution </h3>
 
-Test cases are executed on the created test Cycle summary: **(inserati aici numele cycle-ului pe care l-ati creat)**
+Test cases are executed on the created test Cycle summary: Test cases for creating an account.
 
 Bugs have been created based on the failed tests. The complete bug reports can be found here: **(inserati aici fisierul cu bug-urile pe care le-ati identificat)**
 
 The following is a summary of the bugs that have been found
-**(inserati o lista cu titlurile bug-urilor identificate impreuna cu prioritatea si severitatea fiecaruia)**
+1. <The application does not accept the payment method I used> is the first bug, and its priority is Medium.
+2. <When creating a new account with valid data, if you do not enter a valid email address in the "Email address" field, the platform does not display an error message> is the second bug, and its priority is High.
+
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
 
@@ -128,8 +137,17 @@ Test execution chart was generated and can be found below.
 
 **(inserati aici raportul de executie generat din jira din sectiunea de dashboards)**
 
-The final report shows that a number **(inserati numarul de teste)** tests have failed of a total of **(inserati numarul de teste)**
+The final report shows that a number zero tests have failed of a total of ten.
 
-A number of **(inserati numarul de bug-uri)** total bugs were found, from which the priority is: **(inserati numarul de bug-uri)** are high and **(inserati numarul de bug-uri)** are medium.
+A number of two bogs total bugs were found, from which the priority is: one bug are high and one are medium.
 
-**(inserati aici o concluzie generala a testarii care sa cuprinda cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc.)**
+In this project we tested the online sales platform <https://www.temu.com/ro> and more precisely one of its most important functionalities, the account creation functionality as a customer, but also other functionalities such as: adding a payment method, adding a delivery address, logging in when the user uses credentials or not or has the 2FA option activated. 
+   The testing process went as expected and without problems.
+  Within the project, the following were carried out:
+Three Stories
+Ten tests carried out and fully executed
+two bugs that do not have a major significant impact on the functionality and performance of the product, including:
+a bug has been assigned, fixed, retested and closed
+an unassigned, unfixed and unretested bug.
+I mention that the two bugs do not have a significant negative impact on the product.
+
