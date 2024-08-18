@@ -145,7 +145,7 @@ Test execution chart was generated and can be found below.
 
 The final report shows that a number zero tests have failed of a total of ten.
 
-A number of two bogs total bugs were found, from which the priority is: one bug are high and one are medium.
+A number of two bogs total bugs were found, from which the priority is: one bug are high and one bug are medium.
 
 In this project we tested the online sales platform <https://www.temu.com/ro> and more precisely one of its most important functionalities, the account creation functionality as a customer, but also other functionalities such as: adding a payment method, adding a delivery address, logging in when the user uses credentials or not or has the 2FA option activated. 
    The testing process went as expected and without problems.
