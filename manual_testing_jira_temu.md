@@ -83,12 +83,18 @@ The functionality of logging out of the account, has not been implemented becaus
 <h4>1.1.5 Risks detected</h4>
 
 <h5>Project risks:</h5>
+ 1. The lack of experience of the testing team can lead to important defects being missed during testing.
+ 2. The short testing time may result in the inability to cover all the important functionalities of this product.
+ 3. The lack of business requirements that are not defined can lead to an incomplete understanding of the product's functionalities.
 
-**(enumerati aici toate riscurile de proiect pe care le-ati identificat pentru proiectul vostru)**
+
 
 <h5> Product risks: </h5>
+1. Due to the short testing time, we were not able to cover a large enough percentage of the application, which can lead to a high density of defects reproduced in production in uncovered areas.
+2. Due to a small investment in usability, it is possible that the user experience with the web version of the platform will not be as good as we would like, which is why users will have to use the native version of the platform (this is where problems related to the server, the resolution of the device used or a poor internet connection come in).
+3. The platform's login functionality is not very intuitive in terms of the graphical user interface, having an unsatisfactory design, which can lead to inconvenience caused to users and their migration to other sites or online sales platforms.
 
-**(enumerati aici toate riscurile de produs pe care le-ati identificat pentru proiectul vostru)**
+
 
 <h4>1.1.6 Evaluating entry criteria</h4>
 
