@@ -104,6 +104,7 @@ The entry criteria defined in the Test Planning phase have been achieved and the
 ![![image](https://github.com/user-attachments/assets/2a63a342-723f-4f83-9774-8508b5a21850)
 ](Tes status report)
 
+![image](https://github.com/user-attachments/assets/79cc8b48-fa43-42b0-8069-823f5cfd4d91)
 
 **(inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)**
 
