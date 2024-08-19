@@ -101,8 +101,7 @@ The functionality of logging out of the account, has not been implemented becaus
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
 
 <h3>1.2 Test Monitoring and Control<h3>
-![![image](https://github.com/user-attachments/assets/2a63a342-723f-4f83-9774-8508b5a21850)
-](Tes status report)
+Tes status report
 
 ![image](https://github.com/user-attachments/assets/79cc8b48-fa43-42b0-8069-823f5cfd4d91)
 
@@ -112,6 +111,8 @@ The entry criteria defined in the Test Planning phase have been achieved and the
 The testing process will be executed based on the application requirements. <b>(The requirements analysis has been done in order to implement the <i>early testing</i> test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review)</b>. <br><br>
 
 The following test conditions were found: <br>
+![image](https://github.com/user-attachments/assets/ebc21709-bbae-4d55-a4a5-e7f2182d06ca)
+
 
 **(aici puteti fie sa puneti o poza din jira cu titlurile tuturor testelor - din issues filtrare dupa type test sau sa scrieti cu bulinuta numele fiecarei conditii de testare pe care ati identificat-o)**
 
@@ -130,6 +131,10 @@ The following elements are needed to be ready before the test execution phase be
 Test cases are executed on the created test Cycle summary: Test cases for creating an account.
 
 Bugs have been created based on the failed tests. The complete bug reports can be found here: **(inserati aici fisierul cu bug-urile pe care le-ati identificat)**
+![image](https://github.com/user-attachments/assets/b0a3b70e-49b0-4824-b500-2ca7fe011f65)
+
+![image](https://github.com/user-attachments/assets/425a6777-454f-4c3e-a7da-2290cf2ba3fd)
+
 
 The following is a summary of the bugs that have been found
 1. <The application does not accept the payment method I used> is the first bug, and its priority is Medium.
@@ -142,10 +147,13 @@ Full regression testing is needed on the impacted areas after the bugs are fixed
 As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
 
 The traceability matrix was generated and can be found here: **(inserati aici fie o poza cu matricea de trasabilitate din jira, fie linkul catre fiserul excel exportat din jira cu matricea de trasabilitate. Nu uitati sa faceti filtrare dupa type = story)**
+![image](https://github.com/user-attachments/assets/76fdc269-8bf2-40b7-b0d9-1932e53a4978)
+
 
 Test execution chart was generated and can be found below. 
-
 **(inserati aici raportul de executie generat din jira din sectiunea de dashboards)**
+![image](https://github.com/user-attachments/assets/1f1851ad-abc7-4543-a335-8d52c52acb4c)
+
 
 The final report shows that a number zero tests have failed of a total of ten.
 
