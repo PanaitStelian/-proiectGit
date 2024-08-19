@@ -40,15 +40,16 @@ The plan identifies the items to be tested, the features to be tested, the types
 </ul>
 
 <h4> 1.1.2 Entry criteria defined </h4>
-a. All functional and non-functional requirements are clearly defined and approved by all parties involved.
+
+- All functional and non-functional requirements are clearly defined and approved by all parties involved.
 I chose the online sales platform <https://www.temu.com/ro> and more precisely the important functionalities that involve creating an account as a user.
-b.The chosen test environment is jira -Zephyr Squad and we used the online version of the application
-c. As a search engine, to navigate the web platform I used Google Chrome.
-d. The software version of the application used for testing is the public one available on the internet in the web version
-e. The deployed source code is stable, with no known critical bugs that could hinder testing.
-f. Ten test cases have been implemented, defined and approved.
-g. All test cases are written, reviewed and approved, ensuring that they cover all relevant scenarios.
-h.The available test data was as needed to execute the test cases and available in the test environment.
+- The chosen test environment is jira -Zephyr Squad and we used the online version of the application
+- As a search engine, to navigate the web platform I used Google Chrome.
+- The software version of the application used for testing is the public one available on the internet in the web version
+- The deployed source code is stable, with no known critical bugs that could hinder testing.
+- Ten test cases have been implemented, defined and approved.
+- All test cases are written, reviewed and approved, ensuring that they cover all relevant scenarios.
+- The available test data was as needed to execute the test cases and available in the test environment.<br>
 * The specifications for the account creation functionality in the Temu platform are complete and approved.
 * The test environment is configured and includes relevant test data.
 * The web version of the platform containing the functionality is stable and delivered to the testing team.
@@ -56,10 +57,10 @@ h.The available test data was as needed to execute the test cases and available 
 * The necessary testing tools are installed and functional.
 
 <h4> 1.1.3 Exit criteria defined </h4>
-a. All test cases for the create an account as a user functionality have been executed.
-b. The critical and major defects identified were corrected and validated.
-c. A test coverage report has been generated, indicating more than 95% coverage.
-d. Regression tests have been successfully performed.is. The documentation for the functionality of creating an account as a user, has been updated and revised.
+a. All test cases for the create an account as a user functionality have been executed.<br>
+b. The critical and major defects identified were corrected and validated.<br>
+c. A test coverage report has been generated, indicating more than 95% coverage.<br>
+d. Regression tests have been successfully performed.is. The documentation for the functionality of creating an account as a user, has been updated and revised.<br>
 f. The test results have been approved by the customer and the management team.
 
 
@@ -68,13 +69,13 @@ f. The test results have been approved by the customer and the management team.
 <h5> Tests in scope: </h5>
 
 Ten tests have been implemented, which target the main functionalities related to: 
--positive test such as logging into your account with valid data
--negative testing such as logging into the account with invalid data
--logging into an existing account when we have certain security breaches enabled, such as logging into the account when the 2FA option is enabled
+-positive test such as logging into your account with valid data.<br>
+-negative testing such as logging into the account with invalid data.<br>
+-logging into an existing account when we have certain security breaches enabled, such as logging into the account when the 2FA option is enabled. <br>
 
-Functionalities aimed at the user's interaction with the platform for the purpose of placing orders, such as adding a payment method, but also adding the delivery address
-For the purpose of testing we used the web version of the temu platform available for windows
-I mention that the web version of the platform used is responsive in terms of: performance, design but also user interactions
+Functionalities aimed at the user's interaction with the platform for the purpose of placing orders, such as adding a payment method, but also adding the delivery address.<br>
+For the purpose of testing we used the web version of the temu platform available for windows. <br>
+I mention that the web version of the platform used is responsive in terms of: performance, design but also user interactions. <br>
 
 <h5>Tests not in scope: </h5>
 
@@ -83,16 +84,16 @@ The functionality of logging out of the account, has not been implemented becaus
 <h4>1.1.5 Risks detected</h4>
 
 <h5>Project risks:</h5>
- 1. The lack of experience of the testing team can lead to important defects being missed during testing.
- 2. The short testing time may result in the inability to cover all the important functionalities of this product.
- 3. The lack of business requirements that are not defined can lead to an incomplete understanding of the product's functionalities.
+ 1. The lack of experience of the testing team can lead to important defects being missed during testing.<br>
+ 2. The short testing time may result in the inability to cover all the important functionalities of this product.<br>
+ 3. The lack of business requirements that are not defined can lead to an incomplete understanding of the product's functionalities.<br>
 
 
 
 <h5> Product risks: </h5>
-1. Due to the short testing time, we were not able to cover a large enough percentage of the application, which can lead to a high density of defects reproduced in production in uncovered areas.
-2. Due to a small investment in usability, it is possible that the user experience with the web version of the platform will not be as good as we would like, which is why users will have to use the native version of the platform (this is where problems related to the server, the resolution of the device used or a poor internet connection come in).
-3. The platform's login functionality is not very intuitive in terms of the graphical user interface, having an unsatisfactory design, which can lead to inconvenience caused to users and their migration to other sites or online sales platforms.
+1. Due to the short testing time, we were not able to cover a large enough percentage of the application, which can lead to a high density of defects reproduced in production in uncovered areas.<br>
+2. Due to a small investment in usability, it is possible that the user experience with the web version of the platform will not be as good as we would like, which is why users will have to use the native version of the platform (this is where problems related to the server, the resolution of the device used or a poor internet connection come in).<br>
+3. The platform's login functionality is not very intuitive in terms of the graphical user interface, having an unsatisfactory design, which can lead to inconvenience caused to users and their migration to other sites or online sales platforms.<br>
 
 
 
@@ -100,49 +101,43 @@ The functionality of logging out of the account, has not been implemented becaus
 
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
 
-<h3>1.2 Test Monitoring and Control<h3>
-Tes status report
+<h3>1.2 Test Monitoring and Control</h3>
 
+  
+  Test status report was generated in order to provide information about the progress of the testing process.
+  One example of test status report can be found below:<br>
 ![image](https://github.com/user-attachments/assets/79cc8b48-fa43-42b0-8069-823f5cfd4d91)
 
-**(inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)**
 
 <h3> 1.3 Test Analysis </h3>
-The testing process will be executed based on the application requirements. <b>(The requirements analysis has been done in order to implement the <i>early testing</i> test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review)</b>. <br><br>
+The testing process will be executed based on the application requirements. <br>
 
 The following test conditions were found: <br>
 ![image](https://github.com/user-attachments/assets/dcfee260-47b0-438e-9eb9-3e91fe060872)
-**(aici puteti fie sa puneti o poza din jira cu titlurile tuturor testelor - din issues filtrare dupa type test sau sa scrieti cu bulinuta numele fiecarei conditii de testare pe care ati identificat-o)**
+
 
 <h3>1.4 Test Design</h3>
 
-Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here **(inserati linkul catre fisierul cu testele, in format pdf, word sau csv)**
+Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed [here](https://github.com/user-attachments/files/16663957/ZFJ-Cycles-08-19-2024.-.ZFJ-Cycles-08-19-2024.pdf)
 
 <h3>1.5 Test Implementation</h3>
 
 The following elements are needed to be ready before the test execution phase begins:
-
-**(inserati lista de elemente care sunt evaluate in etapa de implementare)**
-Objectives aimed at the Implementation and Execution of Tests stage
-Elements evaluated:
-A. Execution of manual tests: Carrying out the actual testing of each targeted functionality, which includes:
--Login when creating an account: Checking if a user can create and access a new account.
--Login with 2FA enabled: Testing authentication when 2FA is enabled and verifying the correctness of the two-step verification process.
--Add a payment method: Verify that users can add payment methods to existing accounts and that these methods are saved correctly.
--Add a shipping address: Test adding and validating shipping addresses to an existing account.
-
-B. Recording results: Documenting each test, including its success or failure, and noticing any issues.
-
-C.Defect reporting: Identifying and documenting defects or problems that arise during testing, such as login failure or information saving problems. 
+- test environment must be configured and validated.
+- test data must be created.
+- test cases must be prioritized.
+- access must be provided.
 
 <h3>1.6. Test Execution </h3>
 
 Test cases are executed on the created test Cycle summary: Test cases for creating an account.
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here: **(inserati aici fisierul cu bug-urile pe care le-ati identificat)**
-![image](https://github.com/user-attachments/assets/b0a3b70e-49b0-4824-b500-2ca7fe011f65)
+Bugs have been created based on the failed tests. The complete bug reports can be found here: 
+![image](https://github.com/user-attachments/assets/64c4cf0b-4168-4794-9916-0d535c4c3788)
 
-![image](https://github.com/user-attachments/assets/425a6777-454f-4c3e-a7da-2290cf2ba3fd)
+
+![image](https://github.com/user-attachments/assets/e60c9481-962f-4135-b81c-397ad9834b98)
+
 
 
 The following is a summary of the bugs that have been found
@@ -155,26 +150,29 @@ Full regression testing is needed on the impacted areas after the bugs are fixed
 <h3> 1.7 Test Completion</h3>
 As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
 
-The traceability matrix was generated and can be found here: **(inserati aici fie o poza cu matricea de trasabilitate din jira, fie linkul catre fiserul excel exportat din jira cu matricea de trasabilitate. Nu uitati sa faceti filtrare dupa type = story)**
+The traceability matrix was generated and can be found here: 
 ![image](https://github.com/user-attachments/assets/76fdc269-8bf2-40b7-b0d9-1932e53a4978)
 
 
 Test execution chart was generated and can be found below. 
-**(inserati aici raportul de executie generat din jira din sectiunea de dashboards)**
+- The attached diagram gives us an overview and the progress made in meeting the requirements, testing and the overall condition of the project. The main important functionality of this project is the creation of an account in the sales platform that has been successfully implemented and tested.<br>
+- All the tests associated with this functionality have passed successfully, this indicates that the account creation functionality is complete and works as expected (green area).<br>
+- During the testing process, two bugs were detected, one of which was assigned, fixed and retested successfully (PST-19) and the other bug (PST-31) that was not assigned, unfixed and untested again (red area).<br>
+- As a general conclusion, this does not affect the creation of an account within the application and does not generate negative effects on it, not having a negative effect that impacts the state of the application or its performance.
+
+
 ![image](https://github.com/user-attachments/assets/1f1851ad-abc7-4543-a335-8d52c52acb4c)
 
 
 The final report shows that a number zero tests have failed of a total of ten.
 
-A number of two bogs total bugs were found, from which the priority is: one bug are high and one bug are medium.
-
-In this project we tested the online sales platform <https://www.temu.com/ro> and more precisely one of its most important functionalities, the account creation functionality as a customer, but also other functionalities such as: adding a payment method, adding a delivery address, logging in when the user uses credentials or not or has the 2FA option activated. 
-   The testing process went as expected and without problems.
+A number of two bogs total bugs were found, from which the priority is: one bug are high and one bug are medium.<br>
+In this project we tested the online sales platform <https://www.temu.com/ro> and more precisely one of its most important functionalities, the account creation functionality as a customer, but also other functionalities such as: adding a payment method, adding a delivery address, logging in when the user uses credentials or not or has the 2FA option activated.<br>
+   The testing process went as expected and without problems.<br>
   Within the project, the following were carried out:
-Three Stories
-Ten tests carried out and fully executed
-two bugs that do not have a major significant impact on the functionality and performance of the product, including:
-a bug has been assigned, fixed, retested and closed
-an unassigned, unfixed and unretested bug.
+- Three Stories
+- Ten tests carried out and fully executed
+- Two bugs that do not have a major significant impact on the functionality and performance of the product, including:
+
 I mention that the two bugs do not have a significant negative impact on the product.
 
