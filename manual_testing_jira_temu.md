@@ -112,9 +112,6 @@ The testing process will be executed based on the application requirements. <b>(
 
 The following test conditions were found: <br>
 ![image](https://github.com/user-attachments/assets/dcfee260-47b0-438e-9eb9-3e91fe060872)
-
-
-
 **(aici puteti fie sa puneti o poza din jira cu titlurile tuturor testelor - din issues filtrare dupa type test sau sa scrieti cu bulinuta numele fiecarei conditii de testare pe care ati identificat-o)**
 
 <h3>1.4 Test Design</h3>
@@ -126,6 +123,17 @@ Functional test cases were created in Zephyr Squad based on the analysis of the 
 The following elements are needed to be ready before the test execution phase begins:
 
 **(inserati lista de elemente care sunt evaluate in etapa de implementare)**
+Objectives aimed at the Implementation and Execution of Tests stage
+Elements evaluated:
+A. Execution of manual tests: Carrying out the actual testing of each targeted functionality, which includes:
+-Login when creating an account: Checking if a user can create and access a new account.
+-Login with 2FA enabled: Testing authentication when 2FA is enabled and verifying the correctness of the two-step verification process.
+-Add a payment method: Verify that users can add payment methods to existing accounts and that these methods are saved correctly.
+-Add a shipping address: Test adding and validating shipping addresses to an existing account.
+
+B. Recording results: Documenting each test, including its success or failure, and noticing any issues.
+
+C.Defect reporting: Identifying and documenting defects or problems that arise during testing, such as login failure or information saving problems. 
 
 <h3>1.6. Test Execution </h3>
 
