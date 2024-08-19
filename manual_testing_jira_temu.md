@@ -111,7 +111,8 @@ Tes status report
 The testing process will be executed based on the application requirements. <b>(The requirements analysis has been done in order to implement the <i>early testing</i> test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review)</b>. <br><br>
 
 The following test conditions were found: <br>
-![image](https://github.com/user-attachments/assets/ebc21709-bbae-4d55-a4a5-e7f2182d06ca)
+![image](https://github.com/user-attachments/assets/dcfee260-47b0-438e-9eb9-3e91fe060872)
+
 
 
 **(aici puteti fie sa puneti o poza din jira cu titlurile tuturor testelor - din issues filtrare dupa type test sau sa scrieti cu bulinuta numele fiecarei conditii de testare pe care ati identificat-o)**
